@@ -6,7 +6,7 @@ highlightActiveNav();
 initParticles('particle-canvas');
 typeWriter(
   'hero-typewriter',
-  'Software Engineer | ML Researcher | Builder',
+  'Software Engineer | Builder',
   55
 );
 

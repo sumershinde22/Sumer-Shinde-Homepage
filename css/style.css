@@ -72,8 +72,8 @@ body {
   transition: color 0.2s, border-color 0.2s;
 }
 
-.nav-link:hover,
-.nav-link.active {
+.site-header .nav-link:hover,
+.site-header .nav-link.active {
   color: var(--cyan);
   border-bottom-color: var(--cyan);
 }
