@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Sumer Shinde" />
+  <meta name="description" content="Sumer Shinde's courses at Northeastern University and personal hobbies including hiking, chess, and basketball." />
+  <title>Courses &amp; Hobbies | Sumer Shinde</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/courses.css" />
+</head>
+<body>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom border-success shadow-sm" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-success" href="index.html">Sumer Shinde</a>
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#coursesNav"
+              aria-controls="coursesNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="coursesNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html" id="nav-home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html" id="nav-about">About &amp; Skills</a></li>
+          <li class="nav-item"><a class="nav-link active" href="courses.html" id="nav-courses" aria-current="page">Courses &amp; Hobbies</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5 mt-4">
+
+    <h1 class="text-success mb-5">Courses &amp; Hobbies</h1>
+
+    <!-- Courses Table -->
+    <section aria-labelledby="courses-heading" class="mb-5">
+      <h2 id="courses-heading" class="section-h2 mb-4">Relevant Courses at Northeastern</h2>
+      <div class="table-responsive">
+        <table class="table table-hover table-bordered align-middle">
+          <caption class="text-muted small pb-2">Computer Science &amp; Mathematics coursework</caption>
+          <thead class="table-success">
+            <tr>
+              <th scope="col">Course</th>
+              <th scope="col">Department</th>
+              <th scope="col">Key Topics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Artificial Intelligence</td>
+              <td><span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">CS</span></td>
+              <td>Search, logic, planning, probabilistic inference</td>
+            </tr>
+            <tr>
+              <td>Natural Language Processing</td>
+              <td><span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">CS</span></td>
+              <td>Transformers, BLEU, tokenization, language models</td>
+            </tr>
+            <tr>
+              <td>Unsupervised Machine Learning</td>
+              <td><span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">CS</span></td>
+              <td>Clustering, dimensionality reduction, EM algorithm</td>
+            </tr>
+            <tr>
+              <td>Algorithms &amp; Data Structures</td>
+              <td><span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">CS</span></td>
+              <td>Graph algorithms, dynamic programming, complexity</td>
+            </tr>
+            <tr>
+              <td>Object-Oriented Design</td>
+              <td><span class="badge bg-success-subtle text-success border border-success-subtle rounded-pill">CS</span></td>
+              <td>SOLID principles, design patterns, Java</td>
+            </tr>
+            <tr>
+              <td>Linear Algebra</td>
+              <td><span class="badge bg-warning-subtle text-warning border border-warning-subtle rounded-pill">Math</span></td>
+              <td>Vectors, matrices, eigenvalues, SVD</td>
+            </tr>
+            <tr>
+              <td>Differential Equations</td>
+              <td><span class="badge bg-warning-subtle text-warning border border-warning-subtle rounded-pill">Math</span></td>
+              <td>ODEs, Laplace transforms, systems</td>
+            </tr>
+            <tr>
+              <td>Probability &amp; Statistics</td>
+              <td><span class="badge bg-warning-subtle text-warning border border-warning-subtle rounded-pill">Math</span></td>
+              <td>Distributions, hypothesis testing, Bayesian inference</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section aria-labelledby="hobbies-heading" class="mb-5">
+      <h2 id="hobbies-heading" class="section-h2 mb-4">Hobbies &amp; Interests</h2>
+      <ul class="row row-cols-1 row-cols-md-2 g-3 list-unstyled">
+        <li class="col">
+          <article class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-start gap-3 p-4">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='32'%3E🏔️%3C/text%3E%3C/svg%3E"
+                   alt="Mountain hiking icon" width="40" height="40" class="flex-shrink-0" />
+              <div>
+                <h3 class="h6 fw-bold text-success mb-1">Hiking &amp; Outdoors</h3>
+                <p class="text-muted small mb-0">Love exploring trails in the White Mountains of NH. The research robot I worked on is named "Meru" after Meru Peak — a mountain I aspire to climb someday.</p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="col">
+          <article class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-start gap-3 p-4">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='32'%3E♟️%3C/text%3E%3C/svg%3E"
+                   alt="Chess piece icon" width="40" height="40" class="flex-shrink-0" />
+              <div>
+                <h3 class="h6 fw-bold text-success mb-1">Chess</h3>
+                <p class="text-muted small mb-0">Enjoy studying openings and end-game theory. Chess sharpens the same strategic thinking I apply when designing system architecture and algorithms.</p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="col">
+          <article class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-start gap-3 p-4">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='32'%3E🏀%3C/text%3E%3C/svg%3E"
+                   alt="Basketball icon" width="40" height="40" class="flex-shrink-0" />
+              <div>
+                <h3 class="h6 fw-bold text-success mb-1">Basketball</h3>
+                <p class="text-muted small mb-0">Play pickup games regularly around Boston. Team sports reinforce communication and adaptability — skills I bring to every engineering team.</p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="col">
+          <article class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-start gap-3 p-4">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='32'%3E📚%3C/text%3E%3C/svg%3E"
+                   alt="Books icon" width="40" height="40" class="flex-shrink-0" />
+              <div>
+                <h3 class="h6 fw-bold text-success mb-1">Reading &amp; Research</h3>
+                <p class="text-muted small mb-0">Enjoy reading ML research papers, particularly in reinforcement learning and LLMs. Staying current on the field helps me apply cutting-edge ideas to real projects.</p>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="col">
+          <article class="card border-0 shadow-sm h-100">
+            <div class="card-body d-flex align-items-start gap-3 p-4">
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Ctext y='32' font-size='32'%3E🎵%3C/text%3E%3C/svg%3E"
+                   alt="Music note icon" width="40" height="40" class="flex-shrink-0" />
+              <div>
+                <h3 class="h6 fw-bold text-success mb-1">Music</h3>
+                <p class="text-muted small mb-0">Listen to a wide range — hip-hop, indie, lo-fi while coding. Music keeps the creative side of engineering alive during long debugging sessions.</p>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Quote -->
+    <section aria-labelledby="quote-heading" class="mb-5">
+      <h2 id="quote-heading" class="section-h2 mb-3">My Approach</h2>
+      <blockquote class="blockquote p-4 border-start border-4 border-success bg-success-subtle rounded-end">
+        <p class="mb-2">"I'm <strong>Innovative</strong>, <strong>Collaborative</strong>, and <strong>Driven</strong>. I approach every problem by breaking it down, researching solutions, and iterating until it's right."</p>
+        <footer class="blockquote-footer mt-1">Sumer Shinde</footer>
+      </blockquote>
+    </section>
+
+  </main>
+
+  <footer class="border-top bg-white py-3">
+    <div class="container text-center text-muted small">
+      <p class="mb-0">© 2026 Sumer Shinde · <a href="index.html" class="text-success">Back to Portfolio</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="js/courses.js"></script>
+</body>
+</html>

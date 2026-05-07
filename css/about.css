@@ -1,0 +1,35 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+/* Section heading with left border accent */
+.section-h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-left: 4px solid #0d6efd;
+  padding-left: 0.75rem;
+}
+
+/* Skill bar label column width */
+.skill-name {
+  min-width: 190px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.skill-pct {
+  min-width: 2.5rem;
+  text-align: right;
+}
+
+/* Bootstrap progress override — start at 0 for animation */
+.skill-bar-fill {
+  width: 0;
+  transition: width 0.8s ease;
+}
+
+/* Education card left border colour */
+.card.border-start.border-primary {
+  border-left-color: #0d6efd;
+}
