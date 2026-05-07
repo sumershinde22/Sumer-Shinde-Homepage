@@ -1,11 +1,3 @@
-/* =========================================
-   style.css — index.html custom overrides
-   Bootstrap 5 handles layout/grid/spacing.
-   This file covers: particles, glassmorphism,
-   hero typography, timeline, tags, ML explorer.
-   No !important used.
-   ========================================= */
-
 /* ---- Base ---- */
 :root {
   --cyan: #00e5ff;

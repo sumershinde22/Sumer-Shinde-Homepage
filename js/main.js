@@ -1,4 +1,4 @@
-// ES6 Module: Skills bar animator — vanilla JS, original, >5 lines
+// Skills bar animator 
 export function animateSkillBars() {
   const bars = document.querySelectorAll('.skill-bar-fill');
   const observer = new IntersectionObserver(
@@ -86,7 +86,7 @@ export function initParticles(canvasId) {
   draw();
 }
 
-// PPO vs DQN interactive chart — vanilla JS canvas
+// PPO vs DQN interactive chart
 export function drawProfitChart(canvasId) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;

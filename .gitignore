@@ -3,7 +3,6 @@ node_modules/
 
 # ESLint & Prettier caches
 .eslintcache
-.stylelintcache
 
 # npm logs
 npm-debug.log*

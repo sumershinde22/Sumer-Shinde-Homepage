@@ -1,9 +1,3 @@
-/* =========================================
-   courses.css — custom overrides for courses.html
-   Bootstrap 5 handles layout/spacing/components.
-   No !important used.
-   ========================================= */
-
 body {
   font-family: 'Inter', Arial, sans-serif;
 }
@@ -14,4 +8,11 @@ body {
   font-weight: 700;
   border-left: 4px solid #198754;
   padding-left: 0.75rem;
+}
+
+/* Hobby cards — real photo banner */
+.hobby-img {
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
 }

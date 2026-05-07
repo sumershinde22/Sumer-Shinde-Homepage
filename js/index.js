@@ -10,7 +10,7 @@ typeWriter(
   55
 );
 
-// ML card accordion — vanilla JS, original
+// ML card accordion
 const mlCards = document.querySelectorAll('.ml-card-btn');
 mlCards.forEach((btn) => {
   btn.addEventListener('click', () => {
